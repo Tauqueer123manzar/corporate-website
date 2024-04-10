@@ -1,0 +1,15 @@
+.carousel-image-wrapper {
+    position: relative; /* Set wrapper to relative position */
+}
+
+.overlay {
+    position: absolute; /* Set overlay to absolute position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 32, 32, 0.5); /* Dark semi-transparent background */
+    filter: blur(1px); /* Apply blur effect */
+}
+
+
