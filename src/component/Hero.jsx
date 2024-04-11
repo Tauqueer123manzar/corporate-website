@@ -14,7 +14,7 @@ var heroData=[
     {
         id:2,
         image:courses3,
-        title:'start Your future Financial plan',
+        title:'Start Your future Financial plan',
         description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
         link:'https://www.facebook.com'
     },
@@ -41,12 +41,12 @@ const Hero = () => {
                         alt={"slide "+hero.id}
                         style={{ maxHeight: "75vh" }}
                     />
-                    </div>
+                    </div> 
                     <div className="overlay"></div>
                     <Carousel.Caption>
-                        <h3>{hero.title}</h3>
-                        <p>{hero.description}</p>
-                        <a className='btn btn-danger' href={hero.link}>Learn More</a>
+                        <h3 className='text-center fw-900 text-danger mt-sm-100 mt-md-200'>{hero.title}</h3>
+                        <p  className='text-center fw-medium mt-sm-200 mt-md-300'>{hero.description}</p>
+                        <a className='btn btn-danger' href={hero.link}>Learn More  <i class="fa-solid fa-arrow-right"></i></a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 );
