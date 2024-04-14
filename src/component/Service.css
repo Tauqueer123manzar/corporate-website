@@ -1,0 +1,22 @@
+.service-item{
+    background-color: #f0f0f0;
+}
+.service-item:hover{
+   transform: scale(1.1); 
+   background-color: white;
+}
+@keyframes frameMotion {
+   0%{
+    transform: scale(1);
+   } 
+   50%{
+    transform: scale(1.1);
+   }
+   100%{
+    transform: scale(1);
+   }
+}
+
+.service-item{
+    animation: frameMotion 2s ease-in-out;
+}
