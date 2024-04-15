@@ -72,6 +72,7 @@ const Services = () => {
                     }
                 </Row>
             </Container>
+            <hr></hr>
         </section>
     )
 }
